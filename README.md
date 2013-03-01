@@ -1,4 +1,4 @@
 pauloneves
 ==========
 
-A simple website made with wordpress
+A simple website made with wordpres.
