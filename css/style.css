@@ -141,6 +141,8 @@ a{
     position: relative;
     float: left;
     padding-top: 43px;
+    padding-left: 444px;
+    
 }
 .about p{
     font-family: 'Skia-Regular';
@@ -150,14 +152,12 @@ a{
     float: right;
     font-size: 13px;
 }
-.fundo2{
+/*.fundo2{
     position: relative;
     float: left;
     margin-top: 366px;
     margin-left: 74px;
-
-
-}
+}*/
 
 /*=========================== contato ==================================*/
 .maps{
