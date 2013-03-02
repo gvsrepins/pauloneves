@@ -63,11 +63,11 @@ a{
 .logo a{
     display: block;
     height: 91px;
-    width: 320px;
+    width: 321px;
     background: url(../img/logo.png);
     text-indent: -2000px;
 }
-.logo{ 
+.logo{
     margin: 0px;
     margin-top: 77px;
     margin-left: 61px;
@@ -116,7 +116,7 @@ a{
 .menu ul{ margin: 0px; padding: 0px; }
 .menu li{ display: inline; padding-left: 51px; font-family: 'OratorStd'; }
 .menu a{ list-style: none; color: #3a3e3d; font-size: 16px; text-transform: uppercase;   }
-.menu a:hover{ color: #fff; text-decoration: underline;}
+.menu a:hover{ color: #cac9c4; text-decoration: none;}
 
 
 .imgFundo{ margin-top: 40px; margin-left: 250px;}
