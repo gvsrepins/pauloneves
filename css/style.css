@@ -119,12 +119,7 @@ a{
 .menu a:hover{ color: #fff; text-decoration: underline;}
 
 
-.imgFundo{
-
-    margin-top: 40px;
-    margin-left: 250px;
-    
-}
+.imgFundo{ margin-top: 40px; margin-left: 250px;}
 
 .description p{
     font-family: 'OratorStd';
@@ -136,24 +131,12 @@ a{
     padding-top: 50px;   
 }
 /* usado apenas na index para posicionar o Footer*/
-.dados{
-    position: absolute !important;
-    margin-bottom: -335px !important;
-}
-.footer{
-    padding-bottom: 130px;
-}
-.btn{
-    float: right;
-    margin-top: -18px;
-}
 
+
+#dados{    position: relative; top: -400px; }
 
 /*========================== o artista================================*/
-.quoteRight{
-    position: relative;
-    float: right;
-}
+.quoteRight{  position: relative; float: right; }
 .foto {
     position: relative;
     float: left;
@@ -248,18 +231,22 @@ label{
     padding: 0px;
     margin: 0px;
     padding-left: 29px;
-    padding-right: 22px;
-    padding-top: 74px;
+    padding-right: 19px;
+    padding-top: 68px;
+   
 }
 .galeryGroup{
     list-style: none;
     display: inline;
     margin: 0px;
-    padding: 0px;
+    padding: 0px
 }
 .galeryGroup ul{
     margin: 0px;
     padding: 0px;  
+}
+a.galery{
+     height: 244px;
 }
 .galeryGroup img{
     width: 168px;
@@ -268,6 +255,7 @@ label{
 .galeryGroup a{
     display: block;
     margin: 0px;
+    padding: 0px;
 
 }
 .galeryGroup li{
@@ -279,15 +267,51 @@ label{
           border-radius: 8px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
 }
 
-.galeryGroup .space{
-    margin-right: 75px;
+.galeryGroup .space{margin-right: 78px;}
+.btn{float: right; margin-top: -18px; margin-right: 19px;}
+
+/*============================ Agenda ========================*/
+
+.mural p{
+    padding: 0px;
+}
+.mural{
+    border: solid 1px #716f73;
+    float: left;
+    width: 237px;
+    margin-top: 37px;
+    padding-left: 25px;
 
 }
+.mural ul{
+    padding: 0px;
+    margin: 0px;
+    
+    list-style: none;
+}
+.mural li{
+    padding-bottom: 34px;
+}
+.mural a{
+    display: block;
+}
 
-
-
-
-
+.agenda{
+    background-color: #3e151d;
+    float: left;
+    width: 544px;
+    height: 403px;
+    margin-left: 57px;
+    margin-top:  37px;
+    border: solid 1px #fff;
+}
+.blockRight{
+    border: solid 1px #0000ff;
+    float: right;
+    width: 170px;
+    margin-top: 76px;
+    height: 403;
+}
 
 
 
