@@ -5,98 +5,98 @@
 }
 /*FONTS -----------------------------------------------------------*/
 @font-face {
-    font-family: 'Skia-Regular';
-    src: url('fonts/skiaregular.eot');
-    src: url('fonts/skiaregular.eot?#iefix') format('embedded-opentype'),
-    url('fonts/skiaregular.woff') format('woff'),
-    url('fonts/skiaregular.ttf') format('truetype'),
-    url('fonts/skiaregular.svg#skiaregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Skia-Regular';
+	src: url('fonts/skiaregular.eot');
+	src: url('fonts/skiaregular.eot?#iefix') format('embedded-opentype'),
+	url('fonts/skiaregular.woff') format('woff'),
+	url('fonts/skiaregular.ttf') format('truetype'),
+	url('fonts/skiaregular.svg#skiaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'OratorStd';
-    src: url('fonts/oratorstd.eot');
-    src: url('fonts/oratorstd.eot?#iefix') format('embedded-opentype'),
-    url('fonts/oratorstd.woff') format('woff'),
-    url('fonts/oratorstd.ttf') format('truetype'),
-    url('fonts/oratorstd.svg#oratorstd') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'OratorStd';
+	src: url('fonts/oratorstd.eot');
+	src: url('fonts/oratorstd.eot?#iefix') format('embedded-opentype'),
+	url('fonts/oratorstd.woff') format('woff'),
+	url('fonts/oratorstd.ttf') format('truetype'),
+	url('fonts/oratorstd.svg#oratorstd') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* =Uteis
 --------------------------------------------------------------------------------*/
 .left{
-    float: left;    
+	float: left;    
 }
 .border{border:solid 1px #000}
 
 .clear{
-    clear: both;
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-    height: 0;
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
 }
 .clearfix:after {
-    clear: both;
+	clear: both;
 }
 .gama {margin-right: 23px;}
 
 /* =Base Layout 
 --------------------------------------------------------------------------------*/
 body{
-    background-color: #b1aca9;
-
+	background-color: #b1aca9;
+	line-height: 20px;
 }
 a{
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .container{
-    width: 1020px;
-    margin: 0 auto;
+	width: 1020px;
+	margin: 0 auto;
 }
 .logo a{
-    display: block;
-    height: 91px;
-    width: 321px;
-    background: url(../img/logo.png);
-    text-indent: -2000px;
+	display: block;
+	height: 91px;
+	width: 321px;
+	background: url(../img/logo.png);
+	text-indent: -2000px;
 }
 .logo{
-    margin: 0px;
-    margin-top: 77px;
-    margin-left: 61px;
-    float: left; 
+	margin: 0px;
+	margin-top: 77px;
+	margin-left: 61px;
+	float: left; 
 }
 
 .social{
-    padding-top: 118px;
-    float: right;
-    margin-right: 20px;
+	padding-top: 118px;
+	float: right;
+	margin-right: 20px;
 }
 .social ul{
-    float: right;
-    margin: 0px;
-    padding: 0px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
 }
 .social li{
-    padding-left: 13px;
-    padding-right: 23px;
-    float: right;
-    display: inline-block; 
+	padding-left: 13px;
+	padding-right: 23px;
+	float: right;
+	display: inline-block; 
 }
 /*--------------------- SOCIAL -----------------------------*/
 
 .social li a {
-    display: block;  
-    background: url(../img/scrap_social.png) no-repeat;
-    height: 30px;
-    width: 31px;
+	display: block;  
+	background: url(../img/scrap_social.png) no-repeat;
+	height: 30px;
+	width: 31px;
 }
 
 .social li a.twitter{background-position: 0 -36px; width: 35px; height: 28px;}
@@ -121,13 +121,13 @@ a{
 .imgFundo{ margin-top: 40px; margin-left: 250px;}
 
 .description p{
-    font-family: 'OratorStd';
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    color: #3a3e3d;
-    font-size: 16px;
-    padding-top: 50px;   
+	font-family: 'OratorStd';
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	color: #3a3e3d;
+	font-size: 16px;
+	padding-top: 50px;   
 }
 /* usado apenas na index para posicionar o Footer*/
 
@@ -136,136 +136,142 @@ a{
 
 /*========================== o artista================================*/
 .quoteRight{
-    position: relative;
-    float: right;
+	position: relative;
+	float: right;
 }
 .foto {
-    float: left;
-    padding-top: 43px;
+	float: left;
+	padding-top: 43px;
 }
 .about p{
-    font-family: 'Skia-Regular';
-    margin: 0px;
-    margin-top: 40px;
-    width: 386px;
-    float: right;
-    font-size: 15px;
-    line-height: 20px;
+	font-family: 'Skia-Regular';
+	margin: 0px;
+	margin-top: 40px;
+	width: 386px;
+	float: right;
+	font-size: 15px;
 }
 .fundo2{
-    position: relative;
-    float: left;
-    margin-top: 279px;
-    margin-left: 74px;    
+	position: relative;
+	float: left;
+	margin-top: 279px;
+	margin-left: 74px;    
 }
 
 
 /*=========================== contato ==================================*/
 .maps{
-    float: right;
-    width: 465px;
-    height: 306px;
-    margin-right: 20px;
-    margin-top: 110px;
-    background-color: #383838;
+	float: right;
+	width: 465px;
+	height: 306px;
+	margin-right: 20px;
+	margin-top: 110px;
+	background-color: #383838;
 }
 .area{
-    float: left;
-    padding-top: 110px;
-    padding-left: 64px;
-    
+	float: left;
+	padding-top: 104px;
+	padding-left: 64px;
+	
 }
 .text{
-    width: 378px;
-    height: 125px;
+	width: 380px;
+	height: 125px;
 }
 
+.formulario input{
+	width: 380px;
+	height: 31px;
+}
 fieldset{
-    margin: 0px;
-    padding: 0px;
-    width: 380px;
-    height: 306px;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	width: 380px;
+	height: 306px;
 }
 form ul{
-    padding-left: 0px;
-    margin: 0px;
+	padding-left: 0px;
+	margin: 0px;
 }
 form li{
-    list-style: none;
-    margin-bottom: 0px;
-    margin-bottom: 17px;
+	list-style: none;
+	margin-bottom: 0px;
+
 }
 label{
-    display: block;
-    cursor: pointer;
-    color: #292929;
-    font-family: 'OratorStd';
-    font-size: 12px;
-    text-transform: uppercase;
-    width: 308px;
+	display: block;
+	cursor: pointer;
+	color: #292929;
+	font-family: 'OratorStd';
+	font-size: 13px;
+	text-transform: uppercase;
+	width: 308px;
+	margin: 0px;
 }
 
-.botao{
-    border: none;
-    background-color: #722412;
-    width: 74px;
-    height: 32px;
-    color: #f5f5f5;
-    float: right;
-    position: relative;
-    margin-top: -10px;
+.formulario .botao{
+	border: none;
+	background-color: #722412;
+	width: 74px;
+	height: 32px;
+	color: #f5f5f5;
+	float: right;
+	position: relative;
+	margin-top: 9px;
 }
-.botao a:hover{
-    color: #fff;
+.botao:hover{
+	color: #cac9c4;
 
 }
 .creat{
-    color: #292929;
-    font-family: 'OratorStd';
-    margin-top: 30px;
-    width: 193px;
-    font-size: 12px;
+	color: #292929;
+	font-family: 'OratorStd';
+	margin-top: 30px;
+	
+	font-size: 13px;
+	padding-left: 64px;
 }
 
 /*=========================== Galeria ================================*/
 .galeryContainer{
-    padding: 0px;
-    margin: 0px;
-    padding-left: 29px;
-    padding-right: 19px;
-    padding-top: 68px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 29px;
+	padding-right: 19px;
+	padding-top: 68px;
    
 }
 .galeryGroup{
-    list-style: none;
-    display: inline;
-    margin: 0px;
-    padding: 0px
+	list-style: none;
+	display: inline;
+	margin: 0px;
+	padding: 0px
 }
 .galeryGroup ul{
-    margin: 0px;
-    padding: 0px;  
+	margin: 0px;
+	padding: 0px;  
 }
 a.galery{
-     height: 244px;
+	 height: 244px;
 }
 .galeryGroup img{
-    width: 168px;
-    height: 244px;
+	width: 168px;
+	height: 244px;
 }
 .galeryGroup a{
-    display: block;
-    margin: 0px;
-    padding: 0px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
 
 }
 .galeryGroup li{
-    display: inline;
-    border: solid 8px #beb9b7;
-    float: left; 
-    margin-bottom: 46px;
-    -webkit-border-radius: 8px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
-          border-radius: 8px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	display: inline;
+	border: solid 8px #beb9b7;
+	float: left; 
+	margin-bottom: 46px;
+	-webkit-border-radius: 8px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+		  border-radius: 8px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
 }
 
 .galeryGroup .space{margin-right: 78px;}
@@ -274,44 +280,44 @@ a.galery{
 /*============================ Agenda ========================*/
 
 .mural p{
-    padding: 0px;
+	padding: 0px;
 }
 .mural{
-    border: solid 1px #716f73;
-    float: left;
-    width: 237px;
-    margin-top: 37px;
-    padding-left: 25px;
+	border: solid 1px #716f73;
+	float: left;
+	width: 237px;
+	margin-top: 37px;
+	padding-left: 25px;
 
 }
 .mural ul{
-    padding: 0px;
-    margin: 0px;
-    
-    list-style: none;
+	padding: 0px;
+	margin: 0px;
+	
+	list-style: none;
 }
 .mural li{
-    padding-bottom: 34px;
+	padding-bottom: 34px;
 }
 .mural a{
-    display: block;
+	display: block;
 }
 
 .agenda{
-    background-color: #3e151d;
-    float: left;
-    width: 544px;
-    height: 403px;
-    margin-left: 57px;
-    margin-top:  37px;
-    border: solid 1px #fff;
+	background-color: #3e151d;
+	float: left;
+	width: 544px;
+	height: 403px;
+	margin-left: 57px;
+	margin-top:  37px;
+	border: solid 1px #fff;
 }
 .blockRight{
-    border: solid 1px #0000ff;
-    float: right;
-    width: 170px;
-    margin-top: 76px;
-    height: 403;
+	border: solid 1px #0000ff;
+	float: right;
+	width: 170px;
+	margin-top: 76px;
+	height: 403;
 }
 
 
