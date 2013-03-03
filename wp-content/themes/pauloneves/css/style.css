@@ -58,9 +58,11 @@ a{
 
 .container{
     width: 1020px;
-    margin: 0 auto;
-    min-height: 1000px;
+    margin: 0 auto; 
 }
+
+.content{min-height: 500px;}
+
 .logo a{
     display: block;
     height: 91px;
@@ -133,7 +135,6 @@ a{
 /* usado apenas na index para posicionar o Footer*/
 
 
-#dados{ position: absolute; top: -400px; z-index: 2}
 
 /*========================== o artista================================*/
 .quoteRight{
@@ -169,59 +170,61 @@ a{
     margin-top: 110px;
     background-color: #383838;
 }
-.area{
+.area {
     float: left;
-    padding-top: 104px;
-    padding-left: 64px;
-    
+    margin-top: 65px;
+    margin-left: 64px;
 }
 .text{
     width: 380px;
     height: 125px;
 }
 
-.formulario input{
+.wpcf7-form input{
     width: 380px;
     height: 31px;
+    margin-bottom: 6px;
 }
-fieldset{
+
+.wpcf7-form fieldset{
     border: none;
     margin: 0px;
     padding: 0px;
     width: 380px;
     height: 306px;
 }
-form ul{
+
+.wpcf7-form textarea{width: 381px;}
+.wpcf7-form  ul{
     padding-left: 0px;
     margin: 0px;
 }
-form li{
+.wpcf7-form li{
     list-style: none;
     margin-bottom: 0px;
-
 }
-label{
+.wpcf7-form label, .wpcf7-form p {
     display: block;
-    cursor: pointer;
+    cursor: pointer;    
     color: #292929;
     font-family: 'OratorStd';
-    font-size: 13px;
-    text-transform: uppercase;
-    width: 308px;
+    font-size: 13px;    
+    text-transform: uppercase;    
     margin: 0px;
 }
 
-.formulario .botao{
+.wpcf7-form .wpcf7-submit{
     border: none;
-    background-color: #722412;
+    background-color: #722412!important;
     width: 74px;
     height: 32px;
     color: #f5f5f5;
     float: right;
-    position: relative;
+    position: relative;    
     margin-top: 9px;
+    box-shadow:none!important;
 }
-.botao:hover{
+.wpcf7-submit:hover{
     color: #cac9c4;
 
 }
@@ -310,6 +313,8 @@ a.galery{
 .blockRight{ margin-right: 21px; float: right; margin-top: 63px;}
 .months{float: right; margin-top: 13px; text-align: left; margin-right: 23px;}
 .events{float: right; margin-right: 21px;}
+
+
 
 
 
