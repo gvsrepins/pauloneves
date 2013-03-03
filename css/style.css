@@ -59,6 +59,7 @@ a{
 .container{
 	width: 1020px;
 	margin: 0 auto;
+	min-height: 1000px;
 }
 .logo a{
 	display: block;
@@ -132,7 +133,7 @@ a{
 /* usado apenas na index para posicionar o Footer*/
 
 
-#dados{    position: relative; top: -400px; }
+#dados{ position: absolute; top: -400px; z-index: 2}
 
 /*========================== o artista================================*/
 .quoteRight{
@@ -278,53 +279,37 @@ a.galery{
 .btn{float: right; margin-top: -18px; margin-right: 19px;}
 
 /*============================ Agenda ========================*/
-
-.mural p{
-	padding: 0px;
+.agendaContent p{
+	font-family: 'OratorStd';
+	font-size: 13px;
+	padding-top: 0px;
+	margin-top: 0px;
 }
-.mural{
-	border: solid 1px #716f73;
+
+.mural{	 
+	border-right: solid 1px #716f73;
 	float: left;
 	width: 237px;
-	margin-top: 37px;
+	margin-top: 42px;
 	padding-left: 25px;
 
 }
-.mural ul{
-	padding: 0px;
-	margin: 0px;
-	
-	list-style: none;
-}
-.mural li{
-	padding-bottom: 34px;
-}
-.mural a{
-	display: block;
-}
+.mural ul{padding: 0px;	margin: 0px; list-style: none;}
+.mural li{padding-bottom: 27px;}
+.mural a{display: block;}
+.mural img{	border: solid 2px #d3d1d0;}
 
 .agenda{
-	background-color: #3e151d;
 	float: left;
 	width: 544px;
 	height: 403px;
 	margin-left: 57px;
-	margin-top:  37px;
-	border: solid 1px #fff;
+	margin-top: 42px;
+	text-align: center;
 }
-.blockRight{
-	border: solid 1px #0000ff;
-	float: right;
-	width: 170px;
-	margin-top: 76px;
-	height: 403;
-}
-
-
-
-
-
-
+.blockRight{ margin-right: 21px; float: right; margin-top: 63px;}
+.months{float: right; margin-top: 13px;	text-align: left; margin-right: 23px;}
+.events{float: right; margin-right: 21px;}
 
 
 
