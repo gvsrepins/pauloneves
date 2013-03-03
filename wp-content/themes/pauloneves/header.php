@@ -24,6 +24,14 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/normalize.css">    
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
 
+<?php if (is_home()): ?>
+	<style>
+	body{
+		background: #b1aca9 url(<?php bloginfo('template_directory'); ?>/img/fotos.png) no-repeat center 320px;
+	}	
+	</style>	
+<?php endif ?>
+
 </head>
 <body <?php body_class(); ?>>
 
