@@ -119,7 +119,7 @@ a{
 .menu ul{ margin: 0px; padding: 0px; }
 .menu li{ display: inline; padding-left: 51px; font-family: 'OratorStd'; }
 .menu a{ list-style: none; color: #3a3e3d; font-size: 16px; text-transform: uppercase;   }
-.menu a:hover,.menu.current-menu-item a{ color: #cac9c4; text-decoration: none;}
+.menu a:hover,.menu .current-menu-item a{ color: #cac9c4; text-decoration: none;}
 
 .imgFundo{ margin-top: 40px; margin-left: 250px;}
 
@@ -168,7 +168,7 @@ a{
     height: 306px;
     margin-right: 20px;
     margin-top: 110px;
-    background-color: #383838;
+    /*background-color: #383838;*/
 }
 .area {
     float: left;
