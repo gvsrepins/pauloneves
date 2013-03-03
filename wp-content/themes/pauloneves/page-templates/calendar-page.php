@@ -20,13 +20,10 @@ get_header(); ?>
 		<div class="agendaContent">
 			<div class="mural">
 				<p>Mural de eventos</p>
-				<ul>
-					<li><a href=""><img src="<?php bloginfo('template_directory'); ?>/img/mural1.png"></a></li>
-					<li><a href=""><img src="<?php bloginfo('template_directory'); ?>/img/mural2.png"></a></li>
-					<li><a href=""><img src="<?php bloginfo('template_directory'); ?>/img/mural3.png"></a></li>
-				</ul>                
+				<?php echo get_events() ?>	
 			</div> <!--mural-->
-
+			
+			
 
 			<div class="agenda">                                  
 				<?php while ( have_posts() ) : the_post(); ?>
