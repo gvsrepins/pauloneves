@@ -181,27 +181,27 @@ a{
 	height: 125px;
 }
 
-.formulario input{
+.wpcf7-form input{
 	width: 380px;
 	height: 31px;
 }
-fieldset{
+.wpcf7-form fieldset{
 	border: none;
 	margin: 0px;
 	padding: 0px;
 	width: 380px;
 	height: 306px;
 }
-form ul{
+.wpcf7-form  ul{
 	padding-left: 0px;
 	margin: 0px;
 }
-form li{
+.wpcf7-form li{
 	list-style: none;
 	margin-bottom: 0px;
 
 }
-label{
+.wpcf7-form label{
 	display: block;
 	cursor: pointer;
 	color: #292929;
@@ -212,7 +212,7 @@ label{
 	margin: 0px;
 }
 
-.formulario .botao{
+.wpcf7-form .wpcf7-submit{
 	border: none;
 	background-color: #722412;
 	width: 74px;
@@ -222,7 +222,7 @@ label{
 	position: relative;
 	margin-top: 9px;
 }
-.botao:hover{
+.wpcf7-submit:hover{
 	color: #cac9c4;
 
 }
