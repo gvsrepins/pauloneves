@@ -58,9 +58,11 @@ a{
 
 .container{
 	width: 1020px;
-	margin: 0 auto;
-	min-height: 1000px;
+	margin: 0 auto;	
 }
+
+.content{min-height: 500px;}
+
 .logo a{
 	display: block;
 	height: 91px;
@@ -133,7 +135,6 @@ a{
 /* usado apenas na index para posicionar o Footer*/
 
 
-#dados{ position: absolute; top: -400px; z-index: 2}
 
 /*========================== o artista================================*/
 .quoteRight{
