@@ -63,6 +63,8 @@ a{
 
 .content{min-height: 500px;}
 
+.footer{margin: 20px 0px;}
+
 .logo a{
     display: block;
     height: 91px;
@@ -89,7 +91,7 @@ a{
 }
 .social li{
     padding-left: 13px;
-    padding-right: 23px;
+    padding-right: 23px;    
     float: right;
     display: inline-block; 
 }
@@ -132,8 +134,6 @@ a{
     font-size: 16px;
     padding-top: 50px;   
 }
-/* usado apenas na index para posicionar o Footer*/
-
 
 
 /*========================== o artista================================*/
@@ -143,9 +143,9 @@ a{
 }
 .foto {
     float: left;
-    padding-top: 43px;
+    padding-top: 43px;    
 }
-.about p{
+.about{
     font-family: 'Skia-Regular';
     margin: 0px;
     margin-top: 40px;
