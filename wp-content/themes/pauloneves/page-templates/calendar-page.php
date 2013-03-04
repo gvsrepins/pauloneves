@@ -54,7 +54,7 @@ get_header(); ?>
 		<p>Proximos Eventos</p>
 		<img src="<?php bloginfo('template_directory'); ?>/img/nextMonths.png" alt="">
 	</div>
-</div>
+
 </div><!--agendaContent-->
 </div><!-- #content -->
 </div><!-- #primary -->
