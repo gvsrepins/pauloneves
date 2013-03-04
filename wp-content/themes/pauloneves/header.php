@@ -20,6 +20,7 @@
 <![endif]-->
 
 <?php wp_head(); ?>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/normalize.css">    
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
@@ -65,7 +66,7 @@
 					<h1 class="menu-toggle"><?php _e( 'Menu', 'pauloneves' ); ?></h1>
 					<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'pauloneves' ); ?>"><?php _e( 'Skip to content', 'pauloneves' ); ?></a></div>
 
-					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class'=>'site-navigation' ) ); ?>
 
 				</div> <!--menu-->
 			</div><!--nav-->

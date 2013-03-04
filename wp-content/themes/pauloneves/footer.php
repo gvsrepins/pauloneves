@@ -28,6 +28,11 @@
 
 <?php wp_footer(); ?>
 
+
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.fancybox-1.3.4/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>
+
 </body>
 </html>
 

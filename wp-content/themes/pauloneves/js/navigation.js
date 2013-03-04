@@ -4,7 +4,7 @@
  * Handles toggling the navigation menu for small screens.
  */
 ( function() {
-	var container = document.getElementById( 'site-navigation' ),
+	var container = document.getElementById( 'menu-main' ),
 	    button    = container.getElementsByTagName( 'h1' )[0],
 	    menu      = container.getElementsByTagName( 'ul' )[0];
 
