@@ -45,11 +45,14 @@
 				</div> <!-- logo-->
 				<div class="social">
 					<ul>
+						<?php $socialNetworks = array('linkedin', 'pinterest', 'facebook', 'twitter' ); ?>
 						
-						<li><a class="twitter socialNetwork" href="https://twitter.com"></a></li>
-						<li><a class="facebook socialNetwork" href="https://www.facebook.com/"></a></li>
-						<li><a class="pinterest socialNetwork" href="http://pinterest.com/join/discover/"></a></li>
-						<li><a class="lindekin socialNetwork" href="https://www.linkedin.com/settings/"></a></li>
+						<?php foreach ($socialNetworks as $value) : ?>
+							<li>
+								<a class="<?php echo $value ?> socialNetwork" href="<?php echo eto_get_option('eto_'.$value) ?>"></a>
+							</li>	
+						<?php  endforeach; ?>
+						
 					</ul>  
 					
 					

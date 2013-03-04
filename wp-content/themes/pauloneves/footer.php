@@ -14,9 +14,11 @@
 
 <div class="footer">
 	<div class="description">
-		<p>TELFONE: 31 9702 0094 | BH - MG | BRASIL <br>
-			_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-			<br> PAULO NEVES - TODOS OS DIREITOS RESERVADOS. 2013
+
+		<p>
+			<?php echo eto_get_option('eto_linha1') ?> 
+			<br>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br> 
+			<?php echo eto_get_option('eto_linha2') ?>
 		</p>
 		</div> <!--description-->
 
