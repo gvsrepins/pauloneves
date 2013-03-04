@@ -148,7 +148,7 @@ a{
 .about{
     font-family: 'Skia-Regular';
     margin: 0px;
-    margin-top: 40px;
+    margin-top: 23px;
     width: 386px;
     float: right;
     font-size: 15px;
@@ -226,19 +226,16 @@ a{
 }
 .wpcf7-submit:hover{
     color: #cac9c4;
-
 }
 .author{
     color: #292929;
     font-family: 'OratorStd';
     margin-top: 30px;
-    
     font-size: 13px;
     padding-left: 64px;
     float:left;
     width: 100%
 }
-
 
 /*=========================== Galeria ================================*/
 
@@ -252,9 +249,9 @@ a{
 .galeryContainer .galleryItem{
     float:left;
     border: solid 8px #beb9b7;    
-       
     margin-left: 70px; margin-bottom: 46px;
-
+    width: 184px;
+    height: 260px;
     -webkit-border-radius: 8px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
     border-radius: 8px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
 }
@@ -264,8 +261,12 @@ a{
     height: 244px;
 }
 
+.btn{width: 80px; height: 36px; float: right; margin-top: :;px; margin-right: 19px;}
+.btn a{ background: url(../img/arrows.png)no-repeat; display: block;}
+    a.next{background-position: -44px 0; width: 36px; height: 36px; float: right;}
+    a.previous{background-position: 0px 0; width: 36px; height: 36px;}
+    
 
-.btn{float: right; margin-top: -18px; margin-right: 19px;}
 
 /*============================ Agenda ========================*/
 .agendaContent p{
