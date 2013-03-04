@@ -61,7 +61,9 @@ a{
     margin: 0 auto; 
 }
 
-.content{min-height: 500px;}
+.content{min-height: 500px; font-family: 'Skia-Regular', sans-serif;}
+
+.footer{margin: 20px 0px;}
 
 .logo a{
     display: block;
@@ -89,7 +91,7 @@ a{
 }
 .social li{
     padding-left: 13px;
-    padding-right: 23px;
+    padding-right: 23px;    
     float: right;
     display: inline-block; 
 }
@@ -119,7 +121,7 @@ a{
 .menu ul{ margin: 0px; padding: 0px; }
 .menu li{ display: inline; padding-left: 51px; font-family: 'OratorStd'; }
 .menu a{ list-style: none; color: #3a3e3d; font-size: 16px; text-transform: uppercase;   }
-.menu a:hover,.menu.current-menu-item a{ color: #cac9c4; text-decoration: none;}
+.menu a:hover,.menu .current-menu-item a{ color: #cac9c4; text-decoration: none;}
 
 .imgFundo{ margin-top: 40px; margin-left: 250px;}
 
@@ -132,8 +134,6 @@ a{
     font-size: 16px;
     padding-top: 50px;   
 }
-/* usado apenas na index para posicionar o Footer*/
-
 
 
 /*========================== o artista================================*/
@@ -143,9 +143,9 @@ a{
 }
 .foto {
     float: left;
-    padding-top: 43px;
+    padding-top: 43px;    
 }
-.about p{
+.about{
     font-family: 'Skia-Regular';
     margin: 0px;
     margin-top: 40px;
@@ -168,13 +168,12 @@ a{
     height: 306px;
     margin-right: 20px;
     margin-top: 110px;
-    background-color: #383838;
+    /*background-color: #383838;*/
 }
-.area{
+.area {
     float: left;
-    padding-top: 104px;
-    padding-left: 64px;
-    
+    margin-top: 65px;
+    margin-left: 64px;
 }
 .text{
     width: 380px;
@@ -184,7 +183,9 @@ a{
 .wpcf7-form input{
     width: 380px;
     height: 31px;
+    margin-bottom: 6px;
 }
+
 .wpcf7-form fieldset{
     border: none;
     margin: 0px;
@@ -192,6 +193,8 @@ a{
     width: 380px;
     height: 306px;
 }
+
+.wpcf7-form textarea{width: 381px;}
 .wpcf7-form  ul{
     padding-left: 0px;
     margin: 0px;
@@ -199,41 +202,43 @@ a{
 .wpcf7-form li{
     list-style: none;
     margin-bottom: 0px;
-
 }
-.wpcf7-form label{
+.wpcf7-form label, .wpcf7-form p {
     display: block;
-    cursor: pointer;
+    cursor: pointer;    
     color: #292929;
     font-family: 'OratorStd';
-    font-size: 13px;
-    text-transform: uppercase;
-    width: 308px;
+    font-size: 13px;    
+    text-transform: uppercase;    
     margin: 0px;
 }
 
 .wpcf7-form .wpcf7-submit{
     border: none;
-    background-color: #722412;
+    background-color: #722412!important;
     width: 74px;
     height: 32px;
     color: #f5f5f5;
     float: right;
-    position: relative;
+    position: relative;    
     margin-top: 9px;
+    box-shadow:none!important;
 }
 .wpcf7-submit:hover{
     color: #cac9c4;
 
 }
-.creat{
+.author{
     color: #292929;
     font-family: 'OratorStd';
     margin-top: 30px;
     
     font-size: 13px;
     padding-left: 64px;
+    float:left;
+    width: 100%
 }
+
 
 /*=========================== Galeria ================================*/
 
@@ -259,7 +264,7 @@ a{
     height: 244px;
 }
 
-.galeryContainer .space{margin-right: 78px;}
+
 .btn{float: right; margin-top: -18px; margin-right: 19px;}
 
 /*============================ Agenda ========================*/
@@ -294,30 +299,3 @@ a{
 .blockRight{ margin-right: 21px; float: right; margin-top: 63px;}
 .months{float: right; margin-top: 13px; text-align: left; margin-right: 23px;}
 .events{float: right; margin-right: 21px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
