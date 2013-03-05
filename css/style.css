@@ -56,11 +56,8 @@ a{
     text-decoration: none;
 }
 
-.container{
-    width: 1020px;
-    margin: 0 auto; 
-}
-
+.container{width: 1020px; margin: 0 auto; }
+.header{float: left; width: 1020px}
 .content{min-height: 500px; font-family: 'Skia-Regular', sans-serif;}
 
 .footer{margin: 20px 0px;}
@@ -74,13 +71,14 @@ a{
 }
 .logo{
     margin: 0px;
-    margin-top: 77px;
+    margin-top: 25px;
     margin-left: 61px;
     float: left; 
 }
 
 .social{
-    padding-top: 118px;
+    position: relative;
+    top: 75px;
     float: right;
     margin-right: 20px;
 }
@@ -92,7 +90,7 @@ a{
 .social li{
     padding-left: 13px;
     padding-right: 23px;    
-    float: right;
+    float: left;
     display: inline-block; 
 }
 /*--------------------- SOCIAL -----------------------------*/
@@ -292,7 +290,7 @@ a{
 .agenda{
     float: left;
     width: 544px;
-    height: 403px;
+    min-height: 403px;
     margin-left: 57px;
     margin-top: 42px;
     text-align: center;
