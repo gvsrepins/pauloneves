@@ -46,7 +46,7 @@
 				</div> <!-- logo-->
 				<div class="social">
 					<ul>
-						<?php $socialNetworks = array('linkedin', 'pinterest', 'facebook', 'twitter' ); ?>
+						<?php $socialNetworks = array( 'twitter',  'facebook', 'pinterest' ,'linkedin'); ?>
 						
 						<?php foreach ($socialNetworks as $value) : ?>
 							<li>
