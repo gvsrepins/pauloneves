@@ -17,8 +17,8 @@
 
 		<p>
 			<?php echo eto_get_option('eto_linha1') ?> 
-			<br>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br> 
-			<?php echo eto_get_option('eto_linha2') ?>
+			 <br><img src="img/border.png" alt=""><br>
+			<div class="copyright"><?php echo eto_get_option('eto_linha2') ?></div>
 		</p>
 		</div> <!--description-->
 
