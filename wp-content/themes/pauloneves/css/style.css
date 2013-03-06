@@ -56,11 +56,8 @@ a{
     text-decoration: none;
 }
 
-.container{
-    width: 1020px;
-    margin: 0 auto; 
-}
-
+.container{width: 1020px; margin: 0 auto; }
+.header{float: left; width: 1020px}
 .content{min-height: 500px; font-family: 'Skia-Regular', sans-serif;}
 
 .footer{margin: 20px 0px;}
@@ -74,13 +71,14 @@ a{
 }
 .logo{
     margin: 0px;
-    margin-top: 77px;
+    margin-top: 25px;
     margin-left: 61px;
     float: left; 
 }
 
 .social{
-    padding-top: 118px;
+    position: relative;
+    top: 75px;
     float: right;
     margin-right: 20px;
 }
@@ -110,8 +108,8 @@ a{
 .social li a:hover.facebook{background-position: -48px -1px; width: 30px; height: 30px;}
 .social li a.pinterest{ background-position: -93px -34px; width: 30px; height: 31px;}
 .social li a:hover.pinterest{ background-position: -93px 0; width: 30px; height: 31px;}
-.social li a.linkedin{ background-position: -137px -35px; width: 29px; height: 29px;}
-.social li a:hover.linkedin{ background-position: -137px -1px; width: 29px; height: 30px;}
+.social li a.lindekin{ background-position: -137px -35px; width: 29px; height: 29px;}
+.social li a:hover.lindekin{ background-position: -137px -1px; width: 29px; height: 30px;}
 
 /*--------------------- SOCIAL -----------------------------*/
 
@@ -148,7 +146,7 @@ a{
 .about{
     font-family: 'Skia-Regular';
     margin: 0px;
-    margin-top: 40px;
+    margin-top: 23px;
     width: 386px;
     float: right;
     font-size: 15px;
@@ -226,19 +224,16 @@ a{
 }
 .wpcf7-submit:hover{
     color: #cac9c4;
-
 }
 .author{
     color: #292929;
     font-family: 'OratorStd';
     margin-top: 30px;
-    
     font-size: 13px;
     padding-left: 64px;
     float:left;
     width: 100%
 }
-
 
 /*=========================== Galeria ================================*/
 
@@ -252,9 +247,9 @@ a{
 .galeryContainer .galleryItem{
     float:left;
     border: solid 8px #beb9b7;    
-       
     margin-left: 70px; margin-bottom: 46px;
-
+    width: 184px;
+    height: 260px;
     -webkit-border-radius: 8px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
     border-radius: 8px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
 }
@@ -264,8 +259,12 @@ a{
     height: 244px;
 }
 
+.btn{width: 80px; height: 36px; float: right; margin-top: :;px; margin-right: 19px;}
+.btn a{ background: url(../img/arrows.png)no-repeat; display: block;}
+    a.next{background-position: -44px 0; width: 36px; height: 36px; float: right;}
+    a.previous{background-position: 0px 0; width: 36px; height: 36px;}
+    
 
-.btn{float: right; margin-top: -18px; margin-right: 19px;}
 
 /*============================ Agenda ========================*/
 .agendaContent p{
@@ -291,7 +290,7 @@ a{
 .agenda{
     float: left;
     width: 544px;
-    height: 403px;
+    min-height: 403px;
     margin-left: 57px;
     margin-top: 42px;
     text-align: center;
@@ -299,30 +298,3 @@ a{
 .blockRight{ margin-right: 21px; float: right; margin-top: 63px;}
 .months{float: right; margin-top: 13px; text-align: left; margin-right: 23px;}
 .events{float: right; margin-right: 21px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
