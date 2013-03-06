@@ -15,11 +15,11 @@
 <div class="footer">
 	<div class="description">
 
-		<p>
+		
 			<?php echo eto_get_option('eto_linha1') ?> 
-			 <br><img src="img/border.png" alt=""><br>
+			 <br><img src="<?php bloginfo('template_directory'); ?>/img/border.png" alt=""><br>
 			<div class="copyright"><?php echo eto_get_option('eto_linha2') ?></div>
-		</p>
+		
 		</div> <!--description-->
 
 	</div><!--footer-->

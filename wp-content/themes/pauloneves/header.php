@@ -28,7 +28,7 @@
 <?php if (is_home()): ?>
 	<style>
 	body{
-		background: #b1aca9 url(<?php bloginfo('template_directory'); ?>/img/fotos.png) no-repeat center 320px;
+		background: #b1aca9 url(<?php bloginfo('template_directory'); ?>/img/fotos.png) no-repeat center 220px;
 	}	
 	</style>	
 <?php endif ?>

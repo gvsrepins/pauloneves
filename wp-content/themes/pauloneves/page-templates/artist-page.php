@@ -26,7 +26,7 @@ get_header(); ?>
 		</div>
 
 		<?php if ( has_post_thumbnail() ) : ?>				
-		<div class="foto">
+		<div class="foto circular">
 			<?php the_post_thumbnail(); ?>
 		</div><!-- .entry-page-image -->
 	<?php endif; ?>
