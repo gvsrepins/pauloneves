@@ -113,7 +113,7 @@ a{
 
 /*--------------------- SOCIAL -----------------------------*/
 
-.nav{  margin: 0px; padding: 0px; margin-top: 75px; margin-right: 20px; float: right; }
+.nav{  margin: 0px; padding: 0px; margin-top: 45px; margin-right: 20px; float: right; }
 
 /*.menu{ margin: 0px; padding: 0px; margin-top: 75px; float: right; border: solid 1px #000; }*/
 .menu ul{ margin: 0px; padding: 0px; }
@@ -123,16 +123,29 @@ a{
 
 .imgFundo{ margin-top: 40px; margin-left: 250px;}
 
-.description p{
+.footer .description{
     font-family: 'OratorStd';
     margin: 0px;
     padding: 0px;
     text-align: center;
     color: #3a3e3d;
-    font-size: 16px;
+    font-size: 12px;
     padding-top: 50px;   
+    width: 735px;
+    margin:auto;
+    line-height: 1
 }
 
+.footer .description .copyright{
+    padding-top: 5px;
+    display: block
+}
+.footer .contact{
+    padding: 5px;
+    border-bottom:dashed 1px #3a3e3d;    
+    margin-bottom: 5px;
+    border-image: url(../img/border.png);
+}
 
 /*========================== o artista================================*/
 .quoteRight{
@@ -259,7 +272,7 @@ a{
     height: 244px;
 }
 
-.btn{width: 80px; height: 36px; float: right; margin-top: :;px; margin-right: 19px;}
+.btn{width: 80px; height: 36px; float: right; margin-top: -43px; margin-right: 9px;}
 .btn a{ background: url(../img/arrows.png)no-repeat; display: block;}
     a.next{background-position: -44px 0; width: 36px; height: 36px; float: right;}
     a.previous{background-position: 0px 0; width: 36px; height: 36px;}
